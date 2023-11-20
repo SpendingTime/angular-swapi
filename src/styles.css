@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/galaxy.jpg'); /* Reemplaza 'tu-imagen.jpg' con el nombre de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif; /* Ajusta según tus fuentes preferidas */
+}
+
+.centered-text {
+  text-align: center;
+  color: white;
+  font-size: 18px; /* Ajusta el tamaño de la letra según tus necesidades */
+  font-family: 'Roboto Bold', sans-serif; /* Reemplaza 'Roboto Bold' con la fuente real si es diferente */
+}
+
+.input-field {
+  width: 300px; /* Ajusta el ancho según tu preferencia */
+  padding: 10px;
+  margin-bottom: 10px; /* Ajusta el margen según tu preferencia */
+}
+
+.hint-text {
+  margin: 5px 0;
+  color: white; /* Color de texto blanco */
+  font-family: 'Arial', sans-serif; /* Fuente genérica (cambia 'Arial' según tus preferencias) */
+  font-weight: bold; /* Estilo de fuente bold */
+  font-size: 16px; /* Tamaño del texto */
+}
+
+.json-area {
+  width: 400px; /* Ancho del textarea al 100% */
+  height: 500px; /* Altura deseada, ajusta según tus necesidades */
+  resize: none; /* Evita que el usuario pueda redimensionar el textarea */
+  margin-top: 30px;
+}
+
+/* Estilos para el botón */
+.button {
+  display: block;
+  margin: 0 auto; /* Esto centrará el botón horizontalmente */
+  padding: 10px 20px;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #3F51B5;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}

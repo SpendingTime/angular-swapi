@@ -1,0 +1,24 @@
+<div class="centered-text">
+    <input type="number" [(ngModel)]="valorIngresado" placeholder="Ingrese el ID del Personaje" class="input-field">
+
+    <p class="hint-text">(1-88)</p>
+
+    <div class="button-container">
+        <button class="button" (click)="onMostrarPersonaje()">Mostrar</button>
+
+        <button class="button" (click)="onGuardarPersonaje()">Guardar</button>
+    </div>
+
+    <textarea class="json-area" readonly>{{ jsonResponse | json }}</textarea>
+
+
+    
+    <h2>Consulta - Personajes - Español</h2>
+
+    <input type="number" [(ngModel)]="valorIngresadoEs" placeholder="Ingrese el ID del Personaje" class="input-field">
+
+    <div class="button-container">
+        <button class="button" (click)="onMostrarPersonajeEs()">Mostrar</button>
+    </div>
+    <textarea class="json-area" readonly>{{ jsonResponseEs | json }}</textarea>
+</div>
